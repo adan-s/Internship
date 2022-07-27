@@ -1,0 +1,184 @@
+
+nav {
+    position: sticky ;
+    top: 0px;
+  }
+  nav > ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+
+  }
+  
+ .side-box{
+      display: flex;
+      list-style-type: none;
+      justify-content: space-between;
+    }
+  .textbox{
+   position: absolute;
+   right: 490px;
+   top:20px;
+  }
+
+  .textbox>input{
+    border-radius: 40px;
+    border-color: white;
+    height: 30px;
+    width: 250px;
+    box-shadow: #eff2f7;
+  }
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+  .side-box>img{
+    padding-top: 10px;
+  }
+   .remaining{
+    position: relative;
+  } 
+
+  .remaining > h3 {
+    position: absolute;
+    bottom: 300px;
+    right: 500px;
+  }
+
+  .remaining > button {
+    position: absolute;
+    bottom: 285px;
+    right: 570px;
+    color: rgb(120, 57, 179);
+    border-radius: 20px;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    font-size: large;
+    height: fit-content;
+  }
+
+
+  .main{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .simplebuttons{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+  .simplebuttons>button{
+    font-size: 15px;
+    background-color: white;
+    display: flex;
+    align-content: flex-start;
+    padding: 10px 20px;
+    border-color: white;
+  }
+
+
+  .simplebuttons>.doublebutton1{
+    background-color: white;
+    display: flex;;
+    align-content: flex-start;
+    border-color: white;
+    padding: 5px
+  }
+
+  
+  .simplebuttons>.doublebutton2{
+    background-color: white;
+    display: flex;
+    border-color: white;
+    align-content: flex-start;
+    padding: 5px
+  }
+
+  .doublebutton1>input{
+   width: 20px;
+   height: 20px;
+  }
+
+  .doublebutton2>input{
+    width: 20px;
+    height: 20px;
+   }
+
+   .doublebutton1>p{
+    padding: 10px;
+    margin: -5px;
+   }
+
+   .doublebutton2>p{
+    padding: 10px;
+    margin: -5px;
+   }
+
+   .buttons{
+    display: flex;
+    justify-content: center;
+    background-color: #eff2f7;
+    padding: 15px;
+   }
+
+   .buttons>button{
+    background-color:white ;
+    border-color: #eff2f7;
+    border-radius: 7px;
+    width: 150px;
+    height: 30px;
+   }
+
+  
+   .fourbuttons>input{
+    width: 30px;
+    height: 20px;
+   }
+
+   .fourbuttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   }
+
+   .image{
+    display: flex;
+    justify-content: center;
+   }
+   .second{
+    display: flex;
+    justify-content: space-around;
+   }
+
+
+   .b{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    padding-top: 0px;
+   }
+
+   .b>.b1{
+    border: none;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    width: 30%;
+   }
+
+   .b>.b2{
+    border: none;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(218, 106, 106);
+    background-color: white;
+    width: 30%;
+   }

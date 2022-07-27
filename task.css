@@ -1,0 +1,12 @@
+div {
+    width: 200px;
+    height: 200px;
+    background: #b5e0ba;
+  }
+  body{
+     background: #5d3a3a;
+     padding: 0px;
+     margin: 0px;
+     display: flex;
+     flex-direction: column;
+  }
